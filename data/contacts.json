@@ -1,0 +1,26 @@
+{
+  "emailjs": {
+    "service_id": "your_service_id",
+    "template_id": "your_template_id",
+    "public_key": "your_public_key",
+    "recipient_name": "Akhil Chowdary Udathaneni"
+  },
+  "contact_info": {
+    "email": {
+      "value": "u.akhilchowdary@gmail.com",
+      "link": "mailto:u.akhilchowdary@gmail.com"
+    },
+    "phone": {
+      "value": "+91 8142495532",
+      "link": "tel:+918142495532"
+    },
+    "location": {
+      "value": "Manuguru, Telangana, India 507117",
+      "link": "https://maps.google.com/?q=Manuguru,+Telangana,+India"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/akhil-chowdary-0144662",
+      "link": "https://www.linkedin.com/in/akhil-chowdary-0144662"
+    }
+  }
+} 

@@ -1,0 +1,72 @@
+{
+  "professionalExperience": [
+    {
+      "title": "Cybersecurity Research Assistant",
+      "company": "University Security Lab",
+      "period": "2022 - Present",
+      "responsibilities": [
+        "Conduct vulnerability assessments on web applications and network infrastructure",
+        "Develop and test security tools using Python for penetration testing exercises",
+        "Assist in documenting security best practices and creating educational materials",
+        "Collaborate with faculty on research projects related to network security and intrusion detection"
+      ]
+    },
+    {
+      "title": "Security Analyst Intern",
+      "company": "TechDefend Solutions",
+      "period": "Summer 2022",
+      "responsibilities": [
+        "Monitored network traffic for suspicious activities using Wireshark and custom Python scripts",
+        "Participated in vulnerability scanning and assessment activities using Nessus",
+        "Assisted in incident response simulations and documentation of findings",
+        "Contributed to the development of security awareness training materials"
+      ]
+    }
+  ],
+  "internships": [
+    {
+      "title": "Cybersecurity Intern",
+      "company": "SecureNet Technologies",
+      "period": "Winter 2021",
+      "responsibilities": [
+        "Configured and maintained SIEM solutions for log analysis and threat detection",
+        "Performed basic malware analysis using sandbox environments",
+        "Assisted in penetration testing of internal applications",
+        "Documented security vulnerabilities and recommended remediation steps"
+      ]
+    },
+    {
+      "title": "IT Security Volunteer",
+      "company": "Local Community College",
+      "period": "Summer 2021",
+      "responsibilities": [
+        "Helped implement basic security measures for the college network",
+        "Created documentation for security policies and procedures",
+        "Conducted basic security awareness training for staff members",
+        "Assisted in troubleshooting security-related issues for faculty and students"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Capture The Flag (CTF) Competition Winner",
+      "description": "First place in university-wide cybersecurity competition, demonstrating skills in cryptography, web security, and reverse engineering (2022).",
+      "badge": "🏆"
+    },
+    {
+      "title": "Security Tool Development",
+      "description": "Developed a custom network monitoring tool that was adopted by the university security lab for educational purposes.",
+      "badge": "🛠️"
+    },
+    {
+      "title": "Security Certification Achievement",
+      "description": "Completed five professional certifications in cybersecurity and IT security within one year while maintaining academic excellence.",
+      "badge": "📜"
+    },
+    {
+      "title": "Cybersecurity Workshop Leader",
+      "description": "Organized and led workshops on ethical hacking and penetration testing for junior students, enhancing the security awareness culture on campus.",
+      "badge": "👨‍🏫"
+    }
+  ]
+} 

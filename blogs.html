@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <!-- Theme preload - must come before other styles -->
+    <link rel="stylesheet" href="css/theme-preload.css">
+    <script src="js/theme-preload.js"></script>
+    <!-- Regular styles -->
+    <link rel="stylesheet" href="https://use.typekit.net/llo2eru.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="window portfolio-window">
+            <!-- Window header will be injected by components.js -->
+            
+            <div class="window-content">
+                <div class="content-area blog-page-container">
+                    <div class="section-header">
+                        <h2>Blog</h2>
+                    </div>
+                    <div class="blog-container">
+                        <!-- Toggle button moved out of both sidebar and main content -->
+                        <button class="sidebar-toggle" aria-label="Toggle sidebar" title="Toggle sidebar visibility"></button>
+                        
+                        <div class="blog-sidebar">
+                            <div class="sidebar-header">
+                                <span class="sidebar-title">Content</span>
+                            </div>
+                            <div class="blog-tree">
+                                <!-- Blog tree will be dynamically generated -->
+                                <div class="loading-indicator">Loading blog structure...</div>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-main" style="padding-bottom: 0px;">
+                            <div class="blog-content">
+                                <!-- Blog content will be dynamically loaded -->
+                                <div class="blog-welcome">
+                                    <h1>Welcome to the Blog</h1>
+                                    <p>Select a blog post from the sidebar to get started.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="blog-navigation">
+                                <div class="blog-nav-buttons">
+                                    <!-- Navigation buttons will be inserted here when viewing a post -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Window statusbar will be injected by components.js -->
+        </div>
+    </div>
+    
+    <script src="js/marked.min.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/blog-loader.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize blog loader
+            if (window.BlogLoader) {
+                window.BlogLoader.init({
+                    blogDataUrl: 'data/blogs.json',
+                    blogContentContainer: '.blog-content',
+                    blogTreeContainer: '.blog-tree',
+                    blogTitleContainer: '.section-header h2',
+                    sidebarToggle: '.sidebar-toggle',
+                    navButtonsContainer: '.blog-nav-buttons',
+                    defaultSlug: null, // Will be read from URL or default to welcome page
+                    markdownBasePath: 'blogs/'
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

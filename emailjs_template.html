@@ -1,0 +1,58 @@
+<!-- 
+  EmailJS Template for Contact Form
+  
+  How to use this template:
+  1. Log in to your EmailJS account
+  2. Go to Email Templates
+  3. Create a new template
+  4. Copy and paste this HTML into the template editor
+  5. Save the template and note the Template ID
+  6. Update contact-form.js with your Template ID
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form Submission</title>
+</head>
+<body>
+  <div style="font-family: system-ui, sans-serif, Arial; font-size: 14px; max-width: 600px; margin: 0 auto;">
+    <!-- Header with recipient name -->
+    <div style="margin-bottom: 20px; color: #333;">
+      <h2 style="color: #0a246a; margin-bottom: 5px;">PortFolio: Contact Form Message</h2>
+      <p>Hello {{to_name}},</p>
+      <p>A message from {{name}} has been received. Kindly respond at your earliest convenience.</p>
+    </div>
+    
+    <!-- Message container with styling -->
+    <div style="margin-top: 20px; padding: 15px 0; border-width: 1px 0; border-style: dashed; border-color: lightgrey;">
+      <table role="presentation" style="width: 100%;">
+        <tr>
+          <td style="vertical-align: top; width: 60px;">
+            <div style="padding: 6px 10px; margin: 0 10px; background-color: aliceblue; border-radius: 5px; font-size: 26px;" role="img">
+              &#x1F464;
+            </div>
+          </td>
+          <td style="vertical-align: top;">
+            <div style="color: #2c3e50; font-size: 16px;">
+              <strong>{{name}}</strong> &lt;{{email}}&gt;
+            </div>
+            <div style="color: #999999; font-size: 13px; margin-bottom: 10px;">{{time}}</div>
+            <div style="font-size: 16px; margin-bottom: 5px;"><strong>Subject:</strong> {{subject}}</div>
+            <p style="font-size: 16px; line-height: 1.5; color: #333; white-space: pre-wrap;">{{message}}</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    <!-- Footer with reply instructions -->
+    <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee; color: #666; font-size: 12px;">
+      <p>You can reply directly to this email to respond to {{name}}.</p>
+      <p style="margin-top: 15px;">
+        <em>This message was sent via the contact form on your portfolio website.</em>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

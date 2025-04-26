@@ -1,0 +1,95 @@
+/* Optimized Theme Preloader - Combines theme colors and preload CSS */
+
+:root {
+    /* Light Theme Colors (Default) */
+    --light-primary-white: #ffffff;
+    --light-primary-black: #212121;
+    --light-primary-blue: #0a246a;
+    --light-primary-grey: #c0c0c0;
+    --light-secondary-grey: #f5f5f5;
+    --light-shadow-grey: #808080;
+    --light-hover-grey: #e9e9e9;
+    --light-secondary-text: #555555;
+    --light-link-purple: #551A8B;
+    --light-window-frame: #2b2b2b;
+    --light-button-face: #747474;
+    --light-bg-color: #008080;
+    --light-content-bg: var(--light-primary-white);
+    
+    /* Active theme variables */
+    --bg-color: var(--light-bg-color);
+    --content-bg: var(--light-content-bg);
+    --text-color: var(--light-primary-black);
+    --title-bar-bg: var(--light-primary-blue);
+    --surface: var(--light-primary-grey);
+}
+
+/* Dark Theme Colors */
+html.dark-theme {
+    /* Dark Theme Colors */
+    --dark-primary-black: #222222;
+    --dark-primary-white: #e0e0e0;
+    --dark-primary-yellow: #f5c518;
+    --dark-primary-navy: #1a2639;
+    --dark-secondary-navy: #2a3c5a;
+    --dark-shadow-navy: #0f1724;
+    --dark-hover-navy: #2b3f5c;
+    --dark-secondary-text: #cccccc;
+    --dark-link-yellow: #ffd700;
+    --dark-window-frame: #111111;
+    --dark-button-face: #333333;
+    --dark-bg-color: var(--dark-primary-black);
+    --dark-content-bg: var(--dark-secondary-navy);
+    
+    /* Apply dark theme colors */
+    --bg-color: var(--dark-bg-color);
+    --content-bg: var(--dark-content-bg);
+    --text-color: var(--dark-primary-white);
+    --title-bar-bg: var(--dark-primary-yellow);
+    --surface: var(--dark-primary-navy);
+}
+
+/* Critical elements styling - prevent flash */
+html, body,
+.window-content,
+.window-titlebar,
+.portfolio-window {
+    transition: none !important;
+}
+
+html, body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.window-content {
+    background-color: var(--content-bg) !important;
+    color: var(--text-color) !important;
+}
+
+.window-titlebar {
+    background-color: var(--title-bar-bg) !important;
+}
+
+.portfolio-window {
+    background-color: var(--surface) !important;
+}
+
+/* Dark theme specific overrides */
+html.dark-theme .window-titlebar {
+    color: var(--dark-primary-black) !important; /* Dark text on yellow title bar */
+}
+
+/* Re-enable transitions after initial load */
+@keyframes enable-transitions {
+    to { transition: all 0.15s ease-out; }
+}
+
+html.transitions-enabled,
+html.transitions-enabled body,
+html.transitions-enabled .window-content,
+html.transitions-enabled .window-titlebar,
+html.transitions-enabled .portfolio-window {
+    animation: enable-transitions 0s forwards;
+    animation-delay: 0.3s;
+} 

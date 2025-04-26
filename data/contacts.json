@@ -1,0 +1,25 @@
+{
+  "emailjs": {
+    "public_key": "kkgB9OVfz4P1RFnDj",
+    "service_id": "service_w0k9zmg",
+    "template_id": "template_6a5tegi",
+    "recipient_name": "Akhil Chowdary"
+  },
+  "contact_info": {
+    "email": {
+      "value": "hello@henryheffernan.com",
+      "link": "mailto:hello@henryheffernan.com"
+    },
+    "linkedin": {
+      "value": "linkedin.com/in/henryheffernan",
+      "link": "https://linkedin.com/in/henryheffernan"
+    },
+    "github": {
+      "value": "github.com/henryheffernan",
+      "link": "https://github.com/henryheffernan"
+    },
+    "location": {
+      "value": "San Francisco, CA"
+    }
+  }
+} 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- Theme preload - must come before other styles -->
+    <link rel="stylesheet" href="css/theme-preload.css">
+    <script src="js/theme-preload.js"></script>
+    <!-- Regular styles -->
+    <link rel="stylesheet" href="https://use.typekit.net/llo2eru.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="window portfolio-window">
+            <!-- Window header will be injected by components.js -->
+            
+            <div class="window-content">
+                <div class="content-area">
+                    <div class="section-header">
+                        <h2>About Me</h2>
+                    </div>
+                    
+                    <!-- Error message placeholder -->
+                    <div id="error-message"></div>
+                    
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <div class="profile-picture-container">
+                                <!-- Profile picture placeholder will be replaced by JS -->
+                                <div class="profile-picture-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="about-text" id="about-text">
+                            <!-- About text will be injected by JS -->
+                            <p>Loading...</p>
+                        </div>
+                    </div>
+
+                    <!-- About me sections -->
+                    <div class="education about-section">
+                        <h3>Education</h3>
+                        <div id="education-container">
+                            <!-- Education items will be injected by JS -->
+                            <p>Loading education information...</p>
+                        </div>
+                    </div>
+
+                    <div class="certifications about-section">
+                        <h3>Certifications</h3>
+                        <div id="certifications-container" class="certifications-container">
+                            <!-- Certification items will be injected by JS -->
+                            <p>Loading certification information...</p>
+                        </div>
+                    </div>
+
+                    <div class="skills about-section">
+                        <h3>Skills</h3>
+                        <div id="skills-container" class="skills-container">
+                            <!-- Skill categories will be injected by JS -->
+                            <p>Loading skills information...</p>
+                        </div>
+                    </div>
+
+                    <div class="page-navigation">
+                        <a href="index.html" class="page-nav-button">« Home</a>
+                        <a href="experience.html" class="page-nav-button">Experience »</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Window statusbar will be injected by components.js -->
+        </div>
+    </div>
+    
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/about-loader.js"></script>
+</body>
+</html> 

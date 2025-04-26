@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <!-- Theme preload - must come before other styles -->
+    <link rel="stylesheet" href="css/theme-preload.css">
+    <script src="js/theme-preload.js"></script>
+    <!-- Regular styles -->
+    <link rel="stylesheet" href="https://use.typekit.net/llo2eru.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="window portfolio-window">
+            <!-- Window header will be injected by components.js -->
+            
+            <div class="window-content">
+                <div class="content-area projects-override">
+                    <div class="section-header">
+                        <h2>Featured Projects</h2>
+                    </div>
+                    
+                    <!-- Error message placeholder -->
+                    <div id="error-message"></div>
+                    
+                    <!-- Projects container will be filled by JavaScript -->
+                    <div id="projects-container" class="projects-grid">
+                        <p>Loading projects...</p>
+                    </div>
+
+                    <div class="page-navigation">
+                        <a href="experience.html" class="page-nav-button">« Experience</a>
+                        <a href="blogs.html" class="page-nav-button">Blogs »</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Window statusbar will be injected by components.js -->
+        </div>
+    </div>
+    
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/projects-loader.js"></script>
+</body>
+</html>

@@ -11,19 +11,6 @@
 *Modern web technologies meet vintage aesthetics for a unique and memorable user experience.*
 
 </div>
-
-<div align="center">
-
-[📋 Overview](#-overview) • 
-[🖼️ Preview](#%EF%B8%8F-theme-preview) • 
-[🖥️ Features](#%EF%B8%8F-features) • 
-[🚀 Getting Started](#-getting-started) • 
-[🔧 Customization](#-customization) • 
-[📂 Structure](#-project-structure) • 
-[📄 License](#-license)
-
-</div>
-
 ---
 
 ## 📋 Overview
@@ -32,28 +19,6 @@
   <tr>
     <td width="60%">
       <p>This project was created by taking inspiration from the design of <a href="https://github.com/henryjeff/portfolio-website">Henry Jeff's portfolio website</a>.</p>
-      
-      <p>It features:</p>
-      <ul>
-        <li>Windows 95/98-style UI components</li>
-        <li>Light/dark theme switching</li>
-        <li>JSON-driven content management</li>
-        <li>Responsive design for all devices</li>
-        <li>Minimal dependencies</li>
-        <li>Easy setup and customization</li>
-      </ul>
-      
-      <p><b>Tech stack:</b> HTML, CSS, JavaScript, EmailJS, Marked.js</p>
-    </td>
-    <td width="40%">
-      <h3 align="center">Key Benefits</h3>
-      <ul>
-        <li>🛠️ <b>Standalone</b> - No backend required</li>
-        <li>🧩 <b>Modular</b> - Easy to customize</li>
-        <li>📱 <b>Responsive</b> - Works on all devices</li>
-        <li>🔄 <b>Content-driven</b> - Edit JSON, not code</li>
-        <li>🚫 <b>No build step</b> - Simply serve and go</li>
-      </ul>
     </td>
   </tr>
 </table>
@@ -80,11 +45,11 @@ Through this collaborative approach of my analytical skills combined with AI gui
   <tr>
     <td width="50%">
       <h3 align="center">Dark Theme</h3>
-      <img src="darkTheme.png" alt="Dark Theme Preview" />
+      <img src="assets/images/darkTheme.png" alt="Dark Theme Preview" />
     </td>
     <td width="50%">
       <h3 align="center">Light Theme</h3>
-      <img src="lightTheme.png" alt="Light Theme Preview" />
+      <img src="assets/images/lightTheme.png" alt="Light Theme Preview" />
     </td>
   </tr>
 </table>
@@ -190,10 +155,10 @@ Through this collaborative approach of my analytical skills combined with AI gui
   <tr>
     <td width="70%">
       <b>1. Clone this repository:</b>
-      <pre><code>git clone https://github.com/yourusername/portfolio-inner-site.git</code></pre>
+      <pre><code>git clone https://github.com/uakhilchowdary/PortFolio</code></pre>
     </td>
     <td width="30%" align="center">
-      <a href="https://github.com/yourusername/portfolio-inner-site"><b>📦 Get the code</b></a>
+      <a href="https://github.com/uakhilchowdary/PortFolio"><b>📦 Get the code</b></a>
     </td>
   </tr>
   <tr>

@@ -1,11 +1,7 @@
 # 🪟 Windows 95/98 Style Portfolio Site
 
 <div align="center">
-
-![GitHub License](https://img.shields.io/github/license/yourusername/portfolio-inner-site?style=flat-square)
-![Simple Setup](https://img.shields.io/badge/setup-simple-brightgreen?style=flat-square)
-![No Dependencies](https://img.shields.io/badge/dependencies-minimal-blue?style=flat-square)
-
+  
 **A nostalgic, retro-themed personal portfolio website styled after the classic Windows 95/98 interface.**
 
 *Modern web technologies meet vintage aesthetics for a unique and memorable user experience.*
